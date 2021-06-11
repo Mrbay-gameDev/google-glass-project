@@ -7,11 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="_css/estilo.css"/>
 </head>
-<script>
-    function MudaFoto (foto){
-       document.getElementById("icone").src = foto;
-   } 
-</script>
+<script src= "_javascript/funcoes.js"> </script>
 <body>
 <div id="interface">
 
@@ -27,10 +23,10 @@
 <h1>Menu Principal</h1>
 <ul>
     <li onmouseover="MudaFoto('_imagens/home.png')"><a href="index.html">Home</a></li>
-    <li><a href="specs.html">Especificações</a></li>
-    <li><a href="fotos.html">Fotos</a></li>
-    <li><a href="multimidia.html">Multimídia</a></li>
-    <li><a href="fale-conosco.html">Fale conosco</a></li>
+    <li onmouseover="MudaFoto('_imagens/especificacoes.png')"><a href="specs.html">Especificações</a></li>
+    <li onmouseover="MudaFoto('_imagens/fotos.png')"><a href="fotos.html">Fotos</a></li>
+    <li onmouseover="MudaFoto('_imagens/multimidia.png')"><a href="multimidia.html">Multimídia</a></li>
+    <li onmouseover="MudaFoto('_imagens/contato.png')"><a href="fale-conosco.html">Fale conosco</a></li>
 </ul>
 </nav>
 </header>
@@ -52,7 +48,7 @@
 <p> <span style="font-weight:bold;">O Google Glass</span> é um acessório em forma de óculos que possibilita a interação dos usuários com diversos conteúdos em realidade aumentada. Também chamado de <a href="https://www.google.com/glass/start/" target="_blank">Project Glass</a>, o eletrônico é capaz de tirar fotos a partir de comandos de voz, enviar mensagens instantâneas e realizar vídeo&shy;conferências. Seu lançamento está previsto para 2014, e seu preço deve ser de US$ 1,5 mil. Atualmente o <i>Google Glass </i> encontra-se em fase de testes e já possui um vídeo totalmente gravado com o dispositivo. Além disso, a companhia de buscas registrou novas patentes anti-furto e de desbloqueio de tela para o acessório.</p>
 
 <figure class="foto-legenda">
-<img src="_imagens/glass-quadro-homem-mulher.jpg" alt="paimon">
+<img src="_imagens/glass-quadro-homem-mulher.jpg" alt="Mulher e homem com google glass">
 <figcaption>
     Google glass
 </figcaption>
@@ -94,7 +90,6 @@
 
 <p>Além da surpresa do áudio, a tela montada a frente do olho do usuário também chamou atenção. Serão 640 x 360 pixels de resolução que, em proporção, equivaleria a um monitor de 25 polegadas de alta definição colocado a 2,5 metros de distância do espectador.</p>
 </aside>
-
 <footer id=rodape>
 <p>Copyright&copy; 2013 - by Gustavo Guanabara </br>
 <a href="http://facebook.com/cursosemvideo" target="_blank">Facebook</a> |
@@ -102,7 +97,5 @@
 </p>
 </footer>
 </div>
-
 </body>
-
 </html>
